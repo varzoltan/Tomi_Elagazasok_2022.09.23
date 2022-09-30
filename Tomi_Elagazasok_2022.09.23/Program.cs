@@ -79,6 +79,9 @@ namespace Tomi_Elagazasok_2022._09._23
                 //Van egy default ág is, de ez elhagyható!
                 default: Console.WriteLine("Nem 1 - 7 közötti számot adtál meg!!!");break;
             }
+
+            //Kiírásnál alkamazzuk
+            Console.WriteLine((x < y) ? "Valóban x < y" : "Valóban NEM igaz, hogy x < y");
             Console.ReadKey();
         }
     }
